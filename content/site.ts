@@ -31,10 +31,10 @@ export const site = {
     title: "Parlons de votre projet",
     intro: "Un projet, une collaboration ou une opportunité professionnelle : écrivez-moi, je réponds directement.",
     email: "fokouderick796@gmail.com",
-    whatsapp: "+237651983756",
-    whatsappLabel: "+237 651 983 756",
-    github: "https://github.com/jostin-user", // ex. "https://github.com/votre-pseudo"
-    linkedin: "https://www.linkedin.com/in/derickfokou", // ex. "https://www.linkedin.com/in/votre-profil"
+    whatsapp: "+237651983656",
+    whatsappLabel: "+237 651 983 656",
+    github: "https://github.com/jostin-user",
+    linkedin: "https://www.linkedin.com/in/derickfokou",
     formEndpoint: "https://api.web3forms.com/submit",
     formAccessKey: "05bd5f63-0197-4114-9fd9-b3754a44bf99",
   },

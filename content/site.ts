@@ -33,11 +33,9 @@ export const site = {
     email: "fokouderick796@gmail.com",
     whatsapp: "+237651983756",
     whatsappLabel: "+237 651 983 756",
-    github: "https://github.com/derickfokou", // ex. "https://github.com/votre-pseudo"
+    github: "https://github.com/jostin-user", // ex. "https://github.com/votre-pseudo"
     linkedin: "https://www.linkedin.com/in/derickfokou", // ex. "https://www.linkedin.com/in/votre-profil"
-    // Formulaire : collez ici l'adresse d'envoi fournie par votre service de formulaires.
-    // Tant que formEndpoint est vide, le formulaire n'est pas affiché (aucun faux envoi).
-    formEndpoint: "", // renseignez une URL réelle après avoir configuré votre service de formulaires
-    formAccessKey: "", // uniquement pour Web3Forms (clé d'accès), sinon laissez vide
+    formEndpoint: "https://api.web3forms.com/submit",
+    formAccessKey: "05bd5f63-0197-4114-9fd9-b3754a44bf99",
   },
 };

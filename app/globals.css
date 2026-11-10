@@ -1,0 +1,79 @@
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+         :root,
+        [data-theme="dark"] {
+            color-scheme: dark;
+            --ink: 11 18 32;
+            --surface: 18 27 45;
+            --line: 34 48 73;
+            --cream: 237 232 220;
+            --muted: 140 154 176;
+            --accent: 232 131 58;
+            --brand: 232 131 58;
+            --onaccent: 11 18 32;
+            --done: 60 207 176;
+        }
+        
+        [data-theme="light"] {
+            color-scheme: light;
+            --ink: 246 242 233;
+            --surface: 252 250 245;
+            --line: 217 210 195;
+            --cream: 11 18 32;
+            --muted: 74 88 112;
+            --accent: 232 131 58;
+            --brand: 168 72 26;
+            --onaccent: 11 18 32;
+            --done: 8 112 92;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 5rem;
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+            * {
+                transition: none !important;
+                animation: none !important;
+            }
+        }
+        
+        body {
+            @apply bg-ink text-cream font-sans antialiased;
+        }
+        
+         ::selection {
+            background: #E8833A;
+            color: #0B1220;
+        }
+        
+         :focus-visible {
+            outline: 2px solid #E8833A;
+            outline-offset: 3px;
+        }
+        
+        @layer components {
+            .container-x {
+                @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+            }
+            .section {
+                @apply border-t border-line py-20 sm:py-28;
+            }
+            .eyebrow {
+                @apply font-sans text-sm text-muted;
+            }
+            .btn {
+                @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium transition;
+            }
+            .btn-primary {
+                @apply bg-accent text-onaccent hover:opacity-90;
+            }
+            .btn-ghost {
+                @apply border border-line text-cream hover:border-muted;
+            }
+        }

@@ -24,11 +24,11 @@ npm run build    # vérifie que tout compile
 - **Captures** : placez de vraies captures dans `public/projets/` et référencez-les dans `image` / `screenshots`.
 - **Couleurs et thèmes** : les valeurs des thèmes sombre (par défaut) et clair sont dans `app/globals.css` (variables CSS). Le bouton « Clair / Sombre » de la barre de navigation mémorise le choix du visiteur. Le turquoise reste réservé au statut « Terminé ».
 
-## À vérifier avant de publier (cherchez `TODO` dans `content/`)
+## À vérifier avant chaque publication
 - Statuts de chaque projet (terminé / en cours / prévu) et liste réelle des fonctionnalités.
-- Stack d'ETS Complexe (React + Tailwind mis par défaut).
+- Stack d'ETS Complexe et détails de l'expérience professionnelle.
 - Aucune affirmation de sécurité sur BilankApp sans implémentation réelle.
-- `site.url` : votre vrai nom de domaine.
+- Liens de contact et démonstrations.
 
 ## SEO
 Metadata, Open Graph, `sitemap.xml` et `robots.txt` sont générés. Après déploiement, ajoutez le site dans Google Search Console et envoyez `/sitemap.xml`. Aucun classement n'est garanti.
